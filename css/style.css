@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	position: absolute;
+	width: 100%;
+}
+.container{
+	max-width: 1200px;
+	margin:0 auto;
+	padding: 0 30px;
+}
+.brand{
+	padding: 75px 0;
+}
+.item img{
+	width: 50%;
+}
+.item{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background: white;
+	box-shadow:
+  -2px -2px 2.2px rgba(0, 0, 0, 0.02),
+  -2.5px -2.5px 5.3px rgba(0, 0, 0, 0.028),
+  -0.6px -0.6px 10px rgba(0, 0, 0, 0.035),
+  5.9px 5.9px 17.9px rgba(0, 0, 0, 0.042),
+  24.3px 24.3px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+
+}
+.logo img{
+	width: 105px;
+	margin: 0px 0px 8px 0px;
+}
+.logo a{
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #1E266D;
+}
+.menu{
+	display: flex;
+}
+.menu a{
+	color: whitesmoke;
+	text-decoration: none;
+	margin: 0 1.5rem;
+}
+.phone{
+	text-decoration: none;
+	margin-right: 10px;
+	color: #E2AC8A;
+}
+.banner-img img{
+	width: 100%;
+}
+.banner{
+	height: 100vh;
+	background: url(../images/blob-haikei.svg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 1650px 800px;
+}
+.banner video{
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+.contain-ab{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(250,250,250,0.02) ;
+}
+.banner-text h1{
+	font-size: 60px;
+	margin: 16px 0 40px;
+}
+
+
+.title{
+	font-size: 40px;
+}
+.card{
+	
+	padding: 40px 32px;
+	border-radius: 20px;
+	box-shadow:
+  -2px -2px 2.2px rgba(0, 0, 0, 0.02),
+  -2.5px -2.5px 5.3px rgba(0, 0, 0, 0.028),
+  -0.6px -0.6px 10px rgba(0, 0, 0, 0.035),
+  5.9px 5.9px 17.9px rgba(0, 0, 0, 0.042),
+  24.3px 24.3px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+
+.khung{
+	
+	padding-left: 70px;
+	border-radius: 20px;
+	height: 400px;
+	width: 930px;
+	box-shadow:
+  -2px -2px 2.2px rgba(0, 0, 0, 0.02),
+  -2.5px -2.5px 5.3px rgba(0, 0, 0, 0.028),
+  -0.6px -0.6px 10px rgba(0, 0, 0, 0.035),
+  5.9px 5.9px 17.9px rgba(0, 0, 0, 0.042),
+  24.3px 24.3px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+.icon img{
+	align-items: center;
+	width: 300px;
+	height: 190px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.card h2{
+	margin: 48px 0 32px;
+}
+
+.about-img img{
+	width: 540px;
+	
+	border-radius: 46%;
+	background: #F2F9FF;
+} 
+.services
+{
+	margin-top: 50px;
+	background-color: antiquewhite;
+	height: 1250px;
+}
+.khuccuoi
+{
+	background-color: #D8E2D5;
+	height: 400px;
+}
+.card{
+	background-color: whitesmoke;
+}
+.card img
+{
+	border-radius: 10px;
+}
+.review
+{
+	text-align: center;
+}
+.review-logo img
+{
+	width: 60%;
+}
+.rating
+{
+	color: #F6AE06;
+}
+footer
+{
+	padding: 100px 0;
+}
+.list-menu
+{
+	display: flex;
+	flex-direction: column;
+}
+.list-menu a
+{
+	color: #5C6D90;
+	text-decoration: none;
+}
+.btn:hover{
+	color: darkred ;
+}
+.cot3 {
+	
+    width: 100%;
+	height: 530px;
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: center;	
+}
+.thiennhien{
+	right:10px; bottom:-5px;
+	font-weight:bold;
+	animation:thien 6s linear infinite;
+	opacity:0;}
+	
+@keyframes thien{
+	0%{bottom:-50px;}
+	25%{opacity:0;}
+	30%, 90%{opacity:1; bottom:-5px;}}
+
+.nav-mobile{
+	display: none;
+}
+.close{
+	display: none;
+}
+
+
+
+
+
+
+
